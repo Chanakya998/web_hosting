@@ -1,0 +1,202 @@
+*{margin: 0%;}
+a {
+    text-decoration: none;
+}
+.nav{
+    padding: 1%;
+    align-items: center;
+    /* position: fixed;
+    width: 100%; */
+}
+.nav a {
+    color: black;
+    margin-right: 2%;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 1% 0%;  
+}
+.nav a:hover{
+    color: rgba(255, 151, 28, 255);
+    border-bottom: 4px solid rgba(255, 151, 28, 255);
+}
+.logo {
+    margin-left: 15% ;
+}
+.logo+a {
+    color: rgba(255, 151, 28, 255);
+    margin-left: 20%;
+}
+.section2 {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    display: flex;
+    padding: 12%;
+}
+.unlimited{
+    width: 40%;
+    /* border: 1px solid white; */
+    margin-right: 8%;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.lorem {
+    color: rgb(104, 104, 104);
+    font-size: 12px;
+}
+.circle {
+    margin-left: 30%;
+    font-family: sans-serif;
+}
+.circle1{
+    border: 1px solid rgba(255, 151, 28, 255);
+    background-color: rgba(255, 151, 28, 255);
+    border-radius: 50%;
+    padding: 30% 6%;
+    width: 95%;
+    text-align: center;
+}
+.circle2{
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 50%;
+    padding: 20% 7%;
+    width: 70%;
+    color: rgba(0, 0, 0, 0.75);
+    margin-left: 60%;
+    text-align: center;
+}
+.money {
+    font-size: 20px;
+}
+.un {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.web {
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 10%;
+}
+.grp {
+    margin-top: 10%;
+}
+.read {
+    border: 2px solid white;
+    padding: 1% 5%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.get {
+    border: 2px hidden white;
+    padding: 1.5% 3%;
+    border-radius: 15px;
+    margin-left: 5%;
+    background-color: rgba(255, 151, 28, 255);
+    cursor: pointer;
+}
+.section3 {
+    display: flex;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.section3 input {
+    width: 25%;
+    margin-left: 10%;
+    background-color: black;
+    border-width: 1px;
+    border-right-style: none;
+}
+.search {
+    width:8%;
+    background-color: gray;
+    color: white;
+    border-left-style: none;
+    margin-right: 18%;
+    font-size: 12px;
+    cursor: pointer;
+}
+.domain{
+    display: flex;
+    width: 40%;
+}
+.domain p{
+    border-right-style: solid;
+    border-color: gray;
+    border-width: thin;
+    padding: 0% 5%;
+    text-align: center;
+}
+.section4 {
+    padding: 5% 10%;
+    font-family: sans-serif;
+}
+.common {
+    color: rgba(255, 151, 28, 255);
+}
+.servers {
+    margin-top: 5%;
+    display: flex;
+}
+.servers p {
+    margin-top: 5%;
+}
+.sp:hover{
+    color: rgba(255, 151, 28, 255);
+    cursor: pointer;
+}
+.section5 {
+    background-color: gray;
+    display: flex;
+    font-family: sans-serif;
+}
+.left {
+    width: 50%;
+}
+.right {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 4% 3%;
+}
+.circle-choose {
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 5%;
+    margin-right: 5%;
+}
+.sec5-div {
+    display: flex;
+    margin-top: 5%;
+}
+
+@media (max-width:992px){
+    logo+a {
+        margin-left: 15%;
+}
+@media (max-width:768px){
+    .nav a {
+        font-size: 10px;
+    }
+    .search {
+        margin-right: -2%;
+        font-size: 10px;
+        width: 12%;
+    }
+    .domain {
+        width: 60%;
+        margin-left: 10%;
+    }
+    .section3 input {
+        margin-left: 3%
+    }
+    .unlimited{
+        width: 50%;
+    }
+    .circle{
+        margin-left: 15%;
+    }
+}
